@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="abfd3c1e-7244-4f57-92f6-2b7cbd0bc737" solutionId="abfd3c1e-7244-4f57-92f6-2b7cbd0bc737" resetWebServer="false" title="SharpVectors GDI+ for SharePoint 1.0" name="SharpVectors.SharePoint.Gdi" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <assemblies>
+    <customAssembly location="SharpVectors.Rendering.Gdi.dll" deploymentTarget="GlobalAssemblyCache" sourcePath="..\lib\SharpVectors.Rendering.Gdi.dll" />
+    <customAssembly location="SharpVectors.Model.dll" deploymentTarget="GlobalAssemblyCache" sourcePath="..\lib\SharpVectors.Model.dll" />
+    <customAssembly location="SharpVectors.Dom.dll" deploymentTarget="GlobalAssemblyCache" sourcePath="..\lib\SharpVectors.Dom.dll" />
+    <customAssembly location="SharpVectors.Css.dll" deploymentTarget="GlobalAssemblyCache" sourcePath="..\lib\SharpVectors.Css.dll" />
+    <customAssembly location="SharpVectors.Core.dll" deploymentTarget="GlobalAssemblyCache" sourcePath="..\lib\SharpVectors.Core.dll" />
+  </assemblies>
+</package>
