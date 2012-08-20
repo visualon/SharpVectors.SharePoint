@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+	<metadata>
+		<id>SharpVectors.Css</id>
+		<version>1.0.0.0</version>
+		<authors>Paul Selormey</authors>
+		<owners>Michael Kriese</owners>
+		<licenseUrl>http://sharpvectors.codeplex.com/license</licenseUrl>
+		<projectUrl>http://sharpvectors.codeplex.com/</projectUrl>
+		<iconUrl>http://download-codeplex.sec.s-msft.com/Download?ProjectName=sharpvectors&amp;DownloadId=148857&amp;Build=19280</iconUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<tags>SVG</tags>
+		<description>CSS 2.1 DOM and CSS 3 selectors</description>
+		<dependencies>
+			<dependency id="SharpVectors.Core" version="1.0.0.0" />
+			<dependency id="SharpVectors.Dom" version="1.0.0.0" />
+		</dependencies>
+	</metadata>
+	<files>
+		<file src="lib\SharpVectors.Css.dll" target="lib\net35" />
+	</files>
+</package>

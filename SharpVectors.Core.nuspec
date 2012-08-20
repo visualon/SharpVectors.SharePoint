@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+	<metadata>
+		<id>SharpVectors.Core</id>
+		<version>1.0.0.0</version>
+		<authors>Paul Selormey</authors>
+		<owners>Michael Kriese</owners>
+		<licenseUrl>http://sharpvectors.codeplex.com/license</licenseUrl>
+		<projectUrl>http://sharpvectors.codeplex.com/</projectUrl>
+		<iconUrl>http://download-codeplex.sec.s-msft.com/Download?ProjectName=sharpvectors&amp;DownloadId=148857&amp;Build=19280</iconUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>DOM, CSS, Events, Stylesheets, SVG and Views Bindings</description>
+		<tags>SVG</tags>
+	</metadata>
+	<files>
+		<file src="lib\SharpVectors.Core.dll" target="lib\net35" />
+	</files>
+</package>

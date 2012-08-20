@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+	<metadata>
+		<id>SharpVectors.Rendering.Gdi</id>
+		<version>1.0.0.0</version>
+		<authors>Paul Selormey</authors>
+		<owners>Michael Kriese</owners>
+		<licenseUrl>http://sharpvectors.codeplex.com/license</licenseUrl>
+		<projectUrl>http://sharpvectors.codeplex.com/</projectUrl>
+		<iconUrl>http://download-codeplex.sec.s-msft.com/Download?ProjectName=sharpvectors&amp;DownloadId=148857&amp;Build=19280</iconUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>Default Rendering Engine for GDI+</description>
+		<tags>SVG GDI</tags>
+		<dependencies>
+			<dependency id="SharpVectors.Core" version="1.0.0.0" />
+			<dependency id="SharpVectors.Dom" version="1.0.0.0" />
+			<dependency id="SharpVectors.Css" version="1.0.0.0" />
+			<dependency id="SharpVectors.Model" version="1.0.0.0" />
+		</dependencies>
+	</metadata>
+	<files>
+		<file src="lib\SharpVectors.Rendering.Gdi.dll" target="lib\net35" />
+	</files>
+</package>

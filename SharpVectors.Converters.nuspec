@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+	<metadata>
+		<id>SharpVectors.Converters</id>
+		<version>1.0.0.0</version>
+		<authors>Paul Selormey</authors>
+		<owners>Michael Kriese</owners>
+		<licenseUrl>http://sharpvectors.codeplex.com/license</licenseUrl>
+		<projectUrl>http://sharpvectors.codeplex.com/</projectUrl>
+		<iconUrl>http://download-codeplex.sec.s-msft.com/Download?ProjectName=sharpvectors&amp;DownloadId=148857&amp;Build=19280</iconUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>SVG Converter for WPF</description>
+		<tags>SVG WPF</tags>
+		<dependencies>      
+			<dependency id="SharpVectors.Core" version="1.0.0.0" />
+			<dependency id="SharpVectors.Css" version="1.0.0.0" />
+			<dependency id="SharpVectors.Model" version="1.0.0.0" />
+			<dependency id="SharpVectors.Rendering.Wpf" version="1.0.0.0" />
+			<dependency id="SharpVectors.Runtime" version="1.0.0.0" />
+		</dependencies>
+	</metadata>
+	<files>
+		<file src="lib\SharpVectors.Converters.dll" target="lib\net35" />
+	</files>
+</package>
