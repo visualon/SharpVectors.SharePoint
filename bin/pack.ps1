@@ -4,4 +4,6 @@ $outdir = ".\pkgs"
 
 if (!(Test-Path -path $outdir)) {New-Item $outdir -Type Directory | Out-Null}
 
-ls *.nuspec | foreach { .\bin\nuget pack $_.Name -Version $version -OutputDirectory $outdir }
+ls specs\ | foreach {
+	.\bin\nuget pack $_.FullName -Version $version -OutputDirectory $outdir -BasePath .
+}
